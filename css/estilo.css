@@ -1,0 +1,188 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+.padreTabla {
+  display: flex;
+  justify-content: center; }
+  .padreTabla table {
+    border: 18px solid #3c76ff;
+    height: auto;
+    width: 30vw !important;
+    border-top: 15px solid #3c76ff;
+    margin-top: 0 !important; }
+  .padreTabla tr {
+    color: white;
+    text-align: left;
+    background-color: #3c76ff; }
+  .padreTabla .fondoBlanco {
+    background-color: white;
+    padding: 5%; }
+  .padreTabla .fondoBlancoD {
+    padding: 2%;
+    color: #17193d;
+    background-color: white;
+    font-size: 80%;
+    width: 100%; }
+  .padreTabla .lineaDivisora {
+    width: auto;
+    height: 5%;
+    color: #706b6b; }
+  .padreTabla .textoLinea {
+    padding: 3%;
+    color: #17193d;
+    background-color: white;
+    font-size: 80%;
+    display: flex;
+    justify-content: space-around; }
+  .padreTabla .botonAzul {
+    background-color: #17193d;
+    padding: 2%;
+    border-radius: 10%;
+    color: white; }
+  .padreTabla .imagenDos {
+    width: 100%; }
+  .padreTabla .fondoAzulClaro {
+    background-color: #9a9fac;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7%; }
+    .padreTabla .fondoAzulClaro .letraAzul {
+      font-weight: bold;
+      color: #1a0a58;
+      font-size: small;
+      text-align: right; }
+  .padreTabla .letraAzulGrande {
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: left;
+    background-color: #1c105f;
+    padding: 5%; }
+    .padreTabla .letraAzulGrande .imagen {
+      padding-top: 5%; }
+  .padreTabla .fondoAzulOscuro {
+    color: #1c105f;
+    background-color: #a69ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 5%;
+    font-size: 130%; }
+  .padreTabla .fondoBlancoC {
+    background-color: white;
+    color: #2a1577;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 5%;
+    font-size: 100%; }
+  .padreTabla .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%; }
+    .padreTabla .iconos .estilosIcon {
+      color: blue;
+      width: 10%;
+      height: auto; }
+  .padreTabla .filas {
+    display: table-row; }
+    .padreTabla .filas .estilosIconCuatro {
+      color: blue;
+      width: 10%;
+      height: auto; }
+  .padreTabla .titulosIconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .padreTabla .titulosIconos .estilosTitulos {
+      color: #0e0e4d;
+      font-size: 120%; }
+  .padreTabla .fondoDos {
+    background-color: white;
+    height: 15vh; }
+    .padreTabla .fondoDos .center {
+      display: flex;
+      justify-content: center; }
+      .padreTabla .fondoDos .center .facebook {
+        padding-top: 5%;
+        width: 10%;
+        height: auto;
+        top: 20%; }
+  .padreTabla .parrafo {
+    padding: 3%; }
+  .padreTabla .vivasLaVida {
+    display: flex;
+    justify-content: center;
+    padding: 4%; }
+    .padreTabla .vivasLaVida .tamañoImagen {
+      width: 45%;
+      height: auto; }
+  .padreTabla .fondoB {
+    background-color: white; }
+    .padreTabla .fondoB .condiciones {
+      font-size: x-small;
+      text-align: justify;
+      color: black; }
+
+.padding {
+  padding: 4%; }
+
+@media screen and (max-width: 1657px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 1550px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 1300px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 480px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      width: 20vw;
+      height: auto; } }
+
+@media screen and (max-width: 366px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .padreTabla table {
+      height: auto;
+      width: 10vw; } }
+
+@media screen and (max-width: 320px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 5vw; }
+    .padreTabla table {
+      height: auto;
+      max-width: 100%; } }

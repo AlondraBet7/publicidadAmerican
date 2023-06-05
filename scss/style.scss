@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.padreTabla {
+    display: flex;
+    justify-content: center;
+    // width: 50vw;
+    // height: auto;
+
+    table {
+        border: 18px solid rgb(60, 118, 255);
+        height: auto;
+        width: 30vw !important;
+        border-top: 15px solid rgb(60, 118, 255);
+        margin-top: 0 !important;
+
+    }
+
+    tr {
+        color: white;
+        text-align: left;
+        background-color: rgb(60, 118, 255);
+        // font-size: 50%;
+    }
+
+    .fondoBlanco {
+        background-color: white;
+        padding: 5%;
+    }
+
+    .fondoBlancoD {
+        padding: 2%;
+        color: rgb(23, 25, 61);
+        background-color: white;
+        font-size: 80%;
+        width: 100%;
+    }
+
+    .lineaDivisora {
+        width: auto;
+        height: 5%;
+        color: rgb(112, 107, 107);
+    }
+
+    .textoLinea {
+        padding: 3%;
+        color: rgb(23, 25, 61);
+        background-color: white;
+        font-size: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botonAzul {
+        background-color: rgb(23, 25, 61);
+        padding: 2%;
+        border-radius: 10%;
+        color: white;
+    }
+
+    .imagenDos {
+        width: 100%;
+    }
+
+    .fondoAzulClaro {
+        background-color: rgb(154, 159, 172);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 7%;
+
+        .letraAzul {
+            font-weight: bold;
+            color: rgb(26, 10, 88);
+            font-size: small;
+            text-align: right;
+        }
+    }
+
+    .letraAzulGrande {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 150%;
+        text-align: left;
+        background-color: rgb(28, 16, 95);
+        padding: 5%;
+
+        .imagen {
+            padding-top: 5%;
+        }
+    }
+
+    .fondoAzulOscuro {
+        color: rgb(28, 16, 95);
+        background-color: rgb(166, 156, 204);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: justify;
+        padding: 5%;
+        font-size: 130%;
+    }
+
+    .fondoBlancoC {
+        background-color: rgb(255, 255, 255);
+        color: rgb(42, 21, 119);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: justify;
+        padding: 5%;
+        font-size: 100%;
+    }
+
+    .iconos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3%;
+
+
+        .estilosIcon {
+            color: blue;
+            width: 10%;
+            height: auto;
+        }
+    }
+
+    .filas {
+        display: table-row;
+
+        .estilosIconCuatro {
+            color: blue;
+            width: 10%;
+            height: auto;
+        }
+    }
+
+
+
+
+    // .titulosIconosDos {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-between;
+
+    //     .estilosTitulos {
+    //         color: rgb(14, 14, 77);
+    //         font-size: 120%;
+    //     }
+    // }
+
+    .titulosIconos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .estilosTitulos {
+            color: rgb(14, 14, 77);
+            font-size: 120%;
+        }
+
+        //    .fondoB{
+        //        background-color: white;
+        //        height: 15vh;
+        //    }
+    }
+
+    .fondoDos {
+        background-color: white;
+        height: 15vh;
+
+        .center {
+            // display: table;
+            display: flex;
+            // flex-direction: row;
+            justify-content: center;
+
+            // align-items: center;
+            .facebook {
+                padding-top: 5%;
+                width: 10%;
+                height: auto;
+                top: 20%;
+                // line-height: 200px;
+                // display: table-cell;
+                // vertical-align: middle;
+            }
+        }
+    }
+
+    .parrafo {
+        padding: 3%;
+    }
+
+    .vivasLaVida {
+        display: flex;
+        justify-content: center;
+        padding: 4%;
+
+        .tamañoImagen {
+            width: 45%;
+            height: auto;
+        }
+    }
+
+    .fondoB {
+        background-color: white;
+
+        .condiciones {
+            font-size: x-small;
+            text-align: justify;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+
+.padding {
+    padding: 4%;
+}
+
+
+@media screen and (max-width: 1657px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            width: 20vw;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        table {
+            height: auto;
+            width: 10vw;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 5vw;
+
+        table {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
